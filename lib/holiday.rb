@@ -39,11 +39,11 @@ def all_holidays_with_bbq(holiday_hash)
     holiday.map do |event,value|
       if value.include?("BBQ")
         event
+      end
+    end
+  end.
  end
- end
- end 
- end
- end
+ 
 
 
 
